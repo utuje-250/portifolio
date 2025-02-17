@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main {
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid black; */
+        }
+        .welcome {
+            /* margin-top: 50px; */
+            /* border: 2px solid black; */
+            color: orange;
+            font-size: 25px;
+        }
+        .img {
+            /* margin-top: 90px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid black; */
+            margin-right: 65px;
+            margin-left: 50px;
+        }
+        #myPhoto:hover {
+            border-radius: 65px;
+            transition: 0.8s;
+        }
+        #myPhoto {
+            border-radius: 100px;
+        }
+        .under {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .about, .services {
+            width: 50%;
+            height: 90px;
+            background-image: linear-gradient(to right, rgb(62, 158, 62), rgb(102, 231, 102), transparent);
+            color: aliceblue;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+        .top {
+            display: flex;
+            /* border: 1px solid rgb(9, 42, 226); */
+            margin-top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="flash.jpg.jpg" alt="logo" width="40px" height="40px">
+        <h2>My Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="top">
+        <div class="img">
+            <img src="flash.jpg.jpg" alt="My Photo" width="200px" height="200px" id="myPhoto">
+        </div>
+        <div class="main">
+            <div class="welcome">
+                <h1>Welcome To Creative Portfolio</h1>           
+            </div>
+        </div>
+    </div> 
+    <!-- <div class="footer">
+
+    </div> -->
+</body>
+
+</html>
